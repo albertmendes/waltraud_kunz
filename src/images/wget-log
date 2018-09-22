@@ -1,0 +1,11 @@
+--2017-11-27 23:12:11--  http://media.istockphoto.com/photos/canvas-texture-picture-id534045969?k=6
+Resolving media.istockphoto.com (media.istockphoto.com)... 23.58.216.92
+Connecting to media.istockphoto.com (media.istockphoto.com)|23.58.216.92|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 369281 (361K) [image/jpeg]
+Saving to: ‘bg_pattern.png’
+
+bg_pattern.png           0%[                           ]       0  --.-KB/s               bg_pattern.png          18%[===>                       ]  66.34K   263KB/s               bg_pattern.png          93%[========================>  ] 336.92K   670KB/s               bg_pattern.png         100%[==========================>] 360.63K   708KB/s    in 0.5s    
+
+2017-11-27 23:12:12 (708 KB/s) - ‘bg_pattern.png’ saved [369281/369281]
+

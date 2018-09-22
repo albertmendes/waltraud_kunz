@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Kraftvoll – warm – erdig – wohltuend leuchten die Farben aus den Bildern.         Sie spiegeln wild strudelnde Lebendigkeit. Das Sprudeln, Schwingen und Klingen erweckt tiefe Harmonie.         Glück und Freude breiten sich aus. Klare und tiefe Erfüllung ist zu spüren.">
+    <meta name="keywords" content="Waltraud Kunz, Wertheim, Kunst, Malerei, Malerin">
+    <meta property="og:title" content="Waltraud Kunz - Malerin"/>
+    <meta property="og:description" content="Kraftvoll – warm – erdig – wohltuend leuchten die Farben aus den Bildern.         Sie spiegeln wild strudelnde Lebendigkeit. Das Sprudeln, Schwingen und Klingen erweckt tiefe Harmonie.         Glück und Freude breiten sich aus. Klare und tiefe Erfüllung ist zu spüren." />
+    <meta property="og:type" content="Website"/>
+    <meta property="og:url" content="http://waltraud-kunz.de/"/>
+    <meta property="og:image" content="http://waltraud-kunz.de/static/media/traudl_1.jpg"/>
+    <meta property="og:image:width" content="500" />
+    <meta property="og:image:height" content="744" />
+    <meta property="fb:admins" content="waltraud.kunz.5"/>
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png">
+    <title>Waltraud Kunz | Malerin</title>
+    <style>
+      #rootLoader {
+        text-align: center;
+        color: #555;
+        font-family: arial;
+        font-weight: 300;
+        animation-name: showme;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in-out;
+        opacity: 0;
+      }
+      @keyframes showme {
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.11&appId=624336171080954';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <noscript>
+      Javascript muss für diese Website aktiviert werden.
+    </noscript>
+    <div id="root"><h2 id="rootLoader"><img src="./loader.gif" /><br><br> Einen Moment, bitte ...</h2></div>
+  </body>
+</html>

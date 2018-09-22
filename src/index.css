@@ -1,0 +1,496 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  font-size: 16px;
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #555500;
+  font-weight: normal;
+  transition: all .5s;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  display: inline;
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 400;
+}
+.al-center {
+  text-align: center;
+}
+path.drawme {
+  stroke: #000;
+}
+div.section {
+  min-height: 521px;
+  overflow: auto;
+}
+div.kontakt-section {
+  min-height: 610px;
+}
+.kontakt-section article {
+  width: 25%;
+  float: left;
+  padding-right: 21px;
+  padding-left: 21px;
+}
+p.kontakt-headline {
+  margin: 0 0 89px 0;
+  font-weight: 400;
+}
+
+@media (max-width: 710px) {
+  .kontakt-section article {
+    width: 50%;
+    padding: 0 34px 0 34px;
+  }
+}
+
+@media (max-width: 425px) {
+  .kontakt-section {
+    min-height: 1400px !important;
+  }
+  .kontakt-section article {
+    width: 100%;
+    padding: 0 55px 0 55px;
+    margin-top: 34px;
+  }
+}
+@media (max-width: 375px) {
+  .kontakt-section {
+    min-height: 1200px !important;
+  }
+}
+@media (max-width: 320px) {
+  .kontakt-section {
+    min-height: 987px !important;
+  }
+}
+.kontakt-section article figure img {
+  width: 100%;
+  transition: all .5s;
+}
+.kontakt-section article figure img:hover {
+  opacity: 0.8;
+}
+
+
+.middle-maxw {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 987px;
+  padding: 21px;
+}
+
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 987px;
+  padding: 0 21px 0 21px;
+}
+
+.animate-letters {
+  text-align: center;
+}
+
+svg {
+  width: 300px;
+}
+.iesvg {
+  max-width: 0px;
+}
+
+.brush-icon {
+  position: relative;
+  top: -8px;
+  width: 34px;
+  height: 34px;
+  margin-left: 34px;
+  animation-name: fadeBrush;
+  animation-delay: 5s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  opacity: 0;
+}
+
+@keyframes fadeBrush {
+  to {
+    opacity: 1;
+    margin-left: 13px;
+  }
+}
+
+img.traudl-round {
+  position: relative;
+  top: -8px;
+  margin-right: 21px;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  animation-name: traudl;
+  animation-delay: 5s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  opacity: 0;
+}
+@keyframes traudl {
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 460px) {
+  svg {
+    width: 200px;
+  }
+  img.traudl-round {
+    top: 0px;
+  }
+  .brush-icon {
+    top: -2px;
+  }
+}
+
+/* Fade in later */
+.fade-later {
+  opacity: 0;
+  animation-name: fadeLater;
+  animation-delay: .5s;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+@keyframes fadeLater {
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+.main-menu {
+  margin-bottom: 55px;
+  margin-top: 34px;
+}
+
+.main-menu li a {
+  text-decoration: none;
+  color: black !important;
+  font-weight: 300 !important;
+}
+.main-menu li {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+  margin-right: 55px;
+}
+.main-menu li:last-child {
+  margin-right: 0;
+}
+
+.main-menu li:after {
+  content: '';
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  height: 1px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+.main-menu li:hover:after {
+  width: 100%;
+  background: #888;
+}
+
+.main-menu li a:focus {
+  color: #888 !important;
+}
+
+.dropdown {
+  display: none;
+}
+
+
+
+
+@media (max-width: 425px) {
+  .main-menu {
+    display: none;
+  }
+  .dropbtn {
+    color: #333;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 16px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 21px 0 55px 0;
+    min-width: 160px;
+  }
+  .dropdown-content {
+    visibility: hidden;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: all .5s;
+    opacity: 0;
+    z-index: 1;
+  }
+  .dropdown-content.toggle {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {background-color: #f1f1f1}
+
+}
+
+/* Carousel */
+
+div.slider-decorator-2 {
+  display: none;
+}
+
+.my-twitter {
+  margin-top: 144px;
+}
+
+
+
+/* Biographie */
+div.bio-section {
+  height: 987px;
+}
+@media (max-width: 425px) {
+  div.bio-section {
+    height: 1344px !important;
+  }
+}
+@media (max-width: 375px) {
+  div.bio-section {
+    height: 1450px !important;
+  }
+}
+
+img.bio-left {
+  width: 50%;
+  float: left;
+  padding-right: 34px;
+}
+
+
+div.years {
+  clear: both;
+  margin-top: 144px;
+}
+
+div.years h2:before {
+  content: '\03a6 ';
+  color: #ccc;
+}
+
+div.years article {
+  width: 25%;
+  float: left;
+  padding-right: 21px;
+  padding-left: 21px;
+}
+div.years article:last-child {
+  padding-right: 0;
+}
+@media (max-width: 425px) {
+  div.years article {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+div.years article:first-child {
+  padding-left: 0;
+}
+div.years article p {
+  font-weight: 300;
+  color: #333;
+}
+
+@media (max-width: 425px) {
+  .brush-icon {
+    margin-left: 13px;
+  }
+  img.traudl-round {
+    margin-right: 13px;
+  }
+  div.slider-decorator-0 button, div.slider-decorator-1 button {
+    font-size: 10px;
+  }
+  div.slider-decorator-2 {
+    display: none !important;
+  }
+  .bio-section {
+    min-height: 1200px !important;
+  }
+  .bio-left {
+    width: 100% !important;
+    padding-right: 0 !important;
+    clear: both;
+  }
+  .bio-right {
+    position: relative;
+    width: 100%;
+    top: 55px;
+  }
+  div.years article {
+    width: 50%;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 24px;
+  }
+  .bio-section {
+    min-height: 1300px !important;
+  }
+  div.years article {
+    width: 100%;
+  }
+}
+@media (max-width: 325px) {
+  img.traudl-round {
+    display: none;
+  }
+}
+
+/* Galerie */
+
+article.gal-item {
+  float: left;
+  width: 25%;
+  padding-right: 21px;
+  margin-bottom: 34px;
+}
+@media (max-width: 425px) {
+  article.gal-item {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+article.gal-item figure {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+article.gal-item img {
+  width: 100%;
+  cursor: pointer;
+  transition: opacity .5s;
+  -webkit-backface-visibility: hidden;
+}
+article.gal-item img:hover {
+  opacity: 0.8;
+}
+
+.malerei-container {
+  margin-top: 89px;
+}
+
+@media (max-width: 768px) {
+  article.gal-item {
+    width: 50%;
+  }
+}
+@media (max-width: 425px) {
+  article.gal-item {
+    width: 100%;
+  }
+}
+
+/****** Galerie END ************/
+
+
+/* Ausstellungen */
+div.ausst-section article {
+  margin: 21px 0 21px 0;
+}
+.ausst-section p {
+  font-size: 12px;
+}
+.ausst-section a {
+  font-weight: bold;
+}
+.ausst-section h2 {
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+  width: 50%;
+  margin-top: 34px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nf {
+  min-height: 100vh;
+}
+
+div.footer {
+  margin-top: 89px;
+  border-top: rgba(0,0,0,0.2);
+  box-shadow: 2px -1px 5px rgba(0,0,0,0.2);
+  min-height: 89px;
+  padding-top: 21px;
+  width: 100%;
+  background-color: #fafafa;
+}
+.fb img, .tw img {
+  position: relative;
+  width: 24px;
+  top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.fb img:hover, .tw img:hover {
+  opacity: 0.8;
+}
