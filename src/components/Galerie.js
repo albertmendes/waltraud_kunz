@@ -11,6 +11,8 @@ import Noir from './Galerie/Noir.js';
 import Penses from './Galerie/Penses.js';
 import Passera from './Galerie/Passera.js';
 
+import BuecherJanuar from './Galerie/BuecherJanuar.js';
+
 import Shakespeare from './Galerie/Shakespeare.js';
 
 class Galerie extends Component {
@@ -45,6 +47,11 @@ class Galerie extends Component {
           <Noir />
           <Penses />
           <Passera />
+        </div>
+        <div style={{clear:"both", height:'89px'}}>
+        </div>
+        <div className="buecher-container">
+          <BuecherJanuar />
         </div>
         <div style={{clear:"both", height:'89px'}}>
         </div>

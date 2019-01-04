@@ -436,7 +436,9 @@ article.gal-item img:hover {
 .malerei-container {
   margin-top: 89px;
 }
-
+.buecher-container {
+  margin-top: 21px;
+}
 @media (max-width: 768px) {
   article.gal-item {
     width: 50%;

@@ -8,6 +8,23 @@ class Ausstellungen extends Component {
       <div className="section container fade-later al-center ausst-section">
         <h1>Meine bisherigen Ausstellungen</h1>
         <article>
+          <h2>2018</h2>
+          <p>
+            <a href="http://www.seiziemart.com/p/waltraud-kunz-peintre-normal-0-21-false.html" target="_blank" rel="noopener noreferrer">Seizièm'Art Portes Ouvertes à l'Art</a>
+          </p>
+          <p>
+            12 - 14 October <br />
+						with artist Laurette Succar<br />
+						Atelier, 32 Georg Mandel  <br />
+            75116 Paris <br />
+            France <br />
+          </p>
+					<p>
+						Other artists: <br />
+						Josiane Guitard, Laurette Succar, Yu Zhao
+					</p>
+        </article>
+        <article>
           <h2>2017</h2>
           <p>
             <a href="http://www.seiziemart.com/p/waltraud-kunz-peintre-normal-0-21-false.html" target="_blank" rel="noopener noreferrer">Seizièm'Art Portes Ouvertes à l'Art</a>
