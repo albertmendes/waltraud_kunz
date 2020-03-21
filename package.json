@@ -3,23 +3,35 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "animate.css": "^3.5.2",
-    "classnames": "^2.2.5",
+    "animate.css": "*",
+    "classnames": "*",
     "gsap": "^2.0.2",
-    "nuka-carousel": "^3.0.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-facebook": "^4.1.1",
-    "react-image-lightbox": "^4.3.0",
-    "react-router-dom": "^4.2.2",
-    "react-scripts": "^1.1.5",
-    "react-scrollable-anchor": "^0.5.0",
-    "react-twitter-widgets": "^1.7.1"
+    "nuka-carousel": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-facebook": "*",
+    "react-image-lightbox": "*",
+    "react-router-dom": "*",
+    "react-scripts": "*",
+    "react-scrollable-anchor": "*",
+    "react-twitter-widgets": "*"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
