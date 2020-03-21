@@ -10,7 +10,7 @@
     "react": "*",
     "react-dom": "*",
     "react-facebook": "*",
-    "react-image-lightbox": "*",
+    "react-image-lightbox": "^4.3.0",
     "react-router-dom": "*",
     "react-scripts": "*",
     "react-scrollable-anchor": "*",
