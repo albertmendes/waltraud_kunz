@@ -8,6 +8,17 @@ class Ausstellungen extends Component {
       <div className="section container fade-later al-center ausst-section">
         <h1>Meine bisherigen Ausstellungen</h1>
         <article>
+          <h2>2019/2020</h2>
+          <p>
+            <a href="https://www.wuerzburg.ihk.de/mediathek/presse/archiv/artikel/abschiedsparty.html" target="_blank" rel="noopener noreferrer">Abschiedsparty IHK Mainfranken</a>
+          </p>
+          <p>
+            24. Oktober - 30. Januar <br />
+            Mainaustraße 35 <br />
+            Würzburg
+          </p>
+        </article>
+        <article>
           <h2>2018</h2>
           <p>
             <a href="http://www.seiziemart.com/p/waltraud-kunz-peintre-normal-0-21-false.html" target="_blank" rel="noopener noreferrer">Seizièm'Art Portes Ouvertes à l'Art</a>

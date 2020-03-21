@@ -5,7 +5,7 @@ import traudlRound from '../images/traudl_round.jpg'
 import MyMenu from './MyMenu.js'
 import iesvg from '../images/waltraud_test.svg';
 
-class Svgtest extends Component {
+class Svg extends Component {
 
   componentDidMount() {
 
@@ -15,10 +15,10 @@ class Svgtest extends Component {
     var matches = agent.match(myregex);
     var restrident = agent.match('Trident');
     var resEdge = agent.match('Edge');
-    if(restrident == 'Trident') {
+    if(restrident === 'Trident') {
       ie = true;
     }
-    if(resEdge == 'Edge') {
+    if(resEdge === 'Edge') {
       ie = true;
     }
     if(matches != null) {
@@ -98,4 +98,4 @@ class Svgtest extends Component {
   }
 }
 
-export default Svgtest;
+export default Svg;

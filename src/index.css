@@ -289,6 +289,12 @@ img.traudl-round {
 
 /* Carousel */
 
+.slider {
+  height: 270px !important;
+}
+.slider-control-bottomcenter {
+  display: none;
+}
 div.slider-decorator-2 {
   display: none;
 }
